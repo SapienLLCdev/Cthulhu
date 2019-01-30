@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">Cthulhu Camera Demo</string>
+	<string name="action_settings">Settings</string>
+	<string name="action_connect_usb">Connect USB</string>
+	<string name="format_number">%1$d</string>
+	<string name="action_screen_on">Keep Screen On</string>
+	<string name="action_set_threshold">Set Threshold</string>
+</resources>

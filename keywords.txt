@@ -1,0 +1,6 @@
+Cthulhu 		KEWORD1
+Stimulate 		KEWORD2
+UpdateStimuli 	KEWORD3
+StopStimulus 	KEWORD4
+Begin 			KEWORD5
+CheckWaveform	KEWORD6
