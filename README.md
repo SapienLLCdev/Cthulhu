@@ -23,7 +23,16 @@ The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sen
 
 ![Cthulhu Shield Schematic](https://github.com/SapienLLCdev/Cthulhu/blob/master/Cthulhu_Shield_Rev2e.jpg).
 
-//# How to use the Cthulhu Shield:
+# How to Use the Cthulhu Shield:
+
+**Power**
+The Cthulhu Shield is made to be powered by either by plugging it directly into an Arduino Uno or Mega, or by connecting a battery directly to the shield via the broken out 5v and GND pins near the LEDs. 
+
+**Input**
+When used with an Arduino Uno, the Cthulhu Shield can receive information directly via broken out Serial pins (RX, TX). With an Arduino Mega, the extra IO pins can be leveraged to send Digital or Analog signals to the Cthulhu Shield. 
+
+**Electrode Control**
+Updates coming soon...
 
 # How to Use this Repository:
 
