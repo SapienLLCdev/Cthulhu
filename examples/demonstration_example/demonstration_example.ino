@@ -77,7 +77,7 @@ void demonstration()
 
   //lines top to bottom 5x
 for (int m = 0; m<5 ; m++)
-{
+{ Serial.println("Sweeping lines top to bottom.");
 for (int i = 0;i<5;i++)
 {
   on[i][0] = 1;on[i][1] = 1;on[i][2] = 1;on[i][3] = 1;
@@ -97,7 +97,7 @@ on[i][0] = 0;on[i][1] = 0;on[i][2] = 0;on[i][3] = 0;
 
   //lines left to right 5x
 for (int m = 0; m<5 ; m++)
-{
+{Serial.println("Sweeping lines left to right.");
 for (int i = 0;i<4;i++)
 {
   on[0][i] = 1;on[1][i] = 1;on[2][i] = 1;on[3][i] = 1;on[4][i] = 1;
@@ -115,7 +115,7 @@ for (int i = 0;i<4;i++)
 
   //diagonal point 5x
     for (int i = 0;i<18;i++)
-{
+{Serial.println("Sweeping points diagonally top left to bottom right.");
   ON[i] = 10;
 }
 for (int m = 0; m<5 ; m++)
@@ -145,7 +145,7 @@ for (int i = 0;i<4;i++)
   on[4][0] = 1;on[3][1] = 1;on[2][2] = 1;on[1][3] = 1;
     updatepattern();
 for (int m = 0; m<5 ; m++)
-{
+{Serial.println("Pulsing 'X' with varying intensity.");
 for (int i = 1;i<50;i++)
 {
     for (int x = 0;x<18;x++)
