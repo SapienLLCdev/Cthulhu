@@ -36,8 +36,8 @@ Updates coming soon...
 
 # How to Use this Repository:
 
-If you are new to Github, Sparkfun has created an ![excellent Github tutorial](https://learn.sparkfun.com/tutorials/using-github/all). If you want to get up and running quickly, just take a look at the ![Download ZIP](https://learn.sparkfun.com/tutorials/using-github/all#download-zip) section.
+If you are new to Github, Sparkfun has created an [excellent Github tutorial](https://learn.sparkfun.com/tutorials/using-github/all). If you want to get up and running quickly, just take a look at the [Download ZIP](https://learn.sparkfun.com/tutorials/using-github/all#download-zip) section.
 
-Similarly, if you are new to Arduino, Sparkfun once again has a great ![guide to installing Arduino Libraries](https://learn.sparkfun.com/tutorials/installing-an-arduino-library). After downloading the .ZIP file of the library you want from Github, follow the instructions above to integrate it with the Arduino IDE.
+Similarly, if you are new to Arduino, Sparkfun once again has a great [guide to installing Arduino Libraries](https://learn.sparkfun.com/tutorials/installing-an-arduino-library). After downloading the .ZIP file of the library you want from Github, follow the instructions above to integrate it with the Arduino IDE.
 
 Please see the README files in the examples linked above for more information on their specific implementations!
