@@ -20,5 +20,5 @@ The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sen
 
 # Cthulhu Shield Schematic
 
-![Cthulhu Shield Schematic](https://github.com/SapienLLCdev/Cthulhu/blob/master/Cthulhu_Shield_Rev1_Built.pdf)
+![Cthulhu Shield Schematic](https://github.com/SapienLLCdev/Cthulhu/blob/master/Cthulhu_Shield_Rev2e.jpg)
 
