@@ -6,9 +6,10 @@ This is a library for using the Cthulhu Shield sensory substitution/augmentation
 
 If you like what you see here, please consider donating to our [Kickstarter!](https://www.kickstarter.com/).
 
-The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactiley display signals on the tongue.
+The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactiley display signals on the tongue. In this repository, we have provided a number of example projects to get you started with your Cthulhu, but we encourage you to experiment and build your own senses!
 
-# Repository Contents 
+# Repository Contents:
+
 * [Cthulhu Camera Demo](https://github.com/SapienLLCdev/Cthulhu/tree/master/Android%20Examples/CthulhuCameraDemo)
 * [Waveform Test](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/check_waveform_test_function)
 * [Demonstration](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/demonstration_example)
@@ -18,7 +19,16 @@ The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sen
 * [Tactile Cursor](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_cursor)
 * [Tactile Keypad](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_keypad)
 
-# Cthulhu Shield Schematic
+# Cthulhu Shield Schematic:
 
-![Cthulhu Shield Schematic](https://github.com/SapienLLCdev/Cthulhu/blob/master/Cthulhu_Shield_Rev2e.jpg)
+![Cthulhu Shield Schematic](https://github.com/SapienLLCdev/Cthulhu/blob/master/Cthulhu_Shield_Rev2e.jpg).
 
+//# How to use the Cthulhu Shield:
+
+# How to Use this Repository:
+
+If you are new to Github, Sparkfun has created an ![excellent Github tutorial](https://learn.sparkfun.com/tutorials/using-github/all). If you want to get up and running quickly, just take a look at the ![Download ZIP](https://learn.sparkfun.com/tutorials/using-github/all#download-zip) section.
+
+Similarly, if you are new to Arduino, Sparkfun once again has a great ![guide to installing Arduino Libraries](https://learn.sparkfun.com/tutorials/installing-an-arduino-library). After downloading the .ZIP file of the library you want from Github, follow the instructions above to integrate it with the Arduino IDE.
+
+Please see the README files in the examples linked above for more information on their specific implementations!
