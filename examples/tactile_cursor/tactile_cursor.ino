@@ -7,6 +7,8 @@
   Released into the public domain.
 */
 
+//Used examples from coopermaa at https://github.com/coopermaa/USBKeyboard.git
+
 /*
   This example shows how to use the Cthulhu Shield and tri-state function of the the arduino analog pins (A0-A5) to create 
   a (somewhat intense) stimulus waveform on the tongue at 4 'button' locations, and to sense whether the tongue is in 
