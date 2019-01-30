@@ -17,3 +17,8 @@ The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sen
 * [Tactile Button](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_button_example)
 * [Tactile Cursor](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_cursor)
 * [Tactile Keypad](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_keypad)
+
+# Cthulhu Shield Schematic
+
+![Cthulhu Shield Schematic](https://github.com/SapienLLCdev/Cthulhu/blob/master/Cthulhu_Shield_Rev1_Built.pdf)
+
