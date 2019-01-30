@@ -4,7 +4,7 @@
 
 This is a library for using the Cthulhu Shield sensory substitution/augmentation development kit created by [Sapien LLC](http://sapienllc.com/). 
 
-If you like what you see here, please consider donating to our [Kickstarter!](https://www.kickstarter.com/).
+If you like what you see here, please consider donating to our [Kickstarter!](https://www.kickstarter.com/projects/2007440405/cthulhu-shield?ref=user_menu).
 
 The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactiley display signals on the tongue. In this repository, we have provided a number of example projects to get you started with your Cthulhu, but we encourage you to experiment and build your own senses!
 
@@ -25,13 +25,13 @@ The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sen
 
 # How to Use the Cthulhu Shield:
 
-**Power**
+**Power:**
 The Cthulhu Shield is made to be powered by either by plugging it directly into an Arduino Uno or Mega, or by connecting a battery directly to the shield via the broken out 5v and GND pins near the LEDs. 
 
-**Input**
+**Input:**
 When used with an Arduino Uno, the Cthulhu Shield can receive information directly via broken out Serial pins (RX, TX). With an Arduino Mega, the extra IO pins can be leveraged to send Digital or Analog signals to the Cthulhu Shield. 
 
-**Electrode Control**
+**Electrode Control:**
 Updates coming soon...
 
 # How to Use this Repository:
