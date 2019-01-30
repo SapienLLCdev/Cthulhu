@@ -9,5 +9,10 @@ If you like what you see here, please consider donating to our [Kickstarter!](ht
 The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactiley display signals on the tongue.
 
 # Repository Contents 
-
-
+*[Waveform Test](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/check_waveform_test_function)
+*[Demonstration](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/demonstration_example)
+*[GPS Directions](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/directions_example)
+*[Thermal Camera](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/mega_heat_cam_with_shield)
+*[Tactile Button](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_button_example)
+*[Tactile Cursor](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_cursor)
+*[Tactile Keypad](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_keypad)
