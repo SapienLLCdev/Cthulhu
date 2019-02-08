@@ -6,16 +6,16 @@ This is a library for using the Cthulhu Shield sensory substitution/augmentation
 
 If you like what you see here, please consider backing us or donating on [Kickstarter!](https://www.kickstarter.com/projects/2007440405/cthulhu-shield?ref=user_menu)
 
-The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactiley display signals on the tongue. The electrodes on the array can be activated with patterns of electrical pulses to depolorize nerve membranes in the tongue underneath the electrode to create different types of touch sensations. You can use these touch sensations to draw shapes or simple images on the tongue, feel different sound frequencies, or recieve turn by turn directions with your tongue. 
+The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactiley display signals on the tongue. The electrodes on the array can be activated with patterns of electrical pulses to depolarize nerve membranes in the tongue to create different types of touch sensations. You can use these touch sensations to draw shapes or simple images on the tongue, feel different sound frequencies, or receive turn by turn directions with your tongue.
 
 Additionally, the Cthulhu Shield can sense whether or not your tongue is in contact with different electrodes using capacitive sensing. You can use the Cthulhu Shield to send keystrokes to your computer, control the cursor, or even control a mobility device. 
 
 In this repository, we have provided a number of example projects to get you started with your Cthulhu, but we encourage you to experiment and build your own senses!
 
-For more information on sensory substitution or augmentation, take a look at the links below. 
+There are some awesome uses of sensory substitution already out there. For more information on these uses, or sensory substitution or augmentation in general, take a look at the links below. 
 * [Brainport](https://www.youtube.com/watch?v=OKd56D2mvN0)
-* [wikipedia](https://en.wikipedia.org/wiki/Sensory_substitution)
-* [hear with your tongue](https://source.colostate.edu/words-mouth-csu-device-lets-hear-tongue/)
+* [Wikipedia](https://en.wikipedia.org/wiki/Sensory_substitution)
+* [Hear with your tongue](https://source.colostate.edu/words-mouth-csu-device-lets-hear-tongue/)
 * [TedTalk](https://www.ted.com/talks/david_eagleman_can_we_create_new_senses_for_humans?language=en)
 
 
