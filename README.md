@@ -6,7 +6,18 @@ This is a library for using the Cthulhu Shield sensory substitution/augmentation
 
 If you like what you see here, please consider backing us or donating on [Kickstarter!](https://www.kickstarter.com/projects/2007440405/cthulhu-shield?ref=user_menu)
 
-The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactiley display signals on the tongue. In this repository, we have provided a number of example projects to get you started with your Cthulhu, but we encourage you to experiment and build your own senses!
+The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactiley display signals on the tongue. The electrodes on the array can be activated with patterns of electrical pulses to depolorize nerve membranes in the tongue underneath the electrode to create different types of touch sensations. You can use these touch sensations to draw shapes or simple images on the tongue, feel different sound frequencies, or recieve turn by turn directions with your tongue. 
+
+Additionally, the Cthulhu Shield can sense whether or not your tongue is in contact with different electrodes using capacitive sensing. You can use the Cthulhu Shield to send keystrokes to your computer, control the cursor, or even control a mobility device. 
+
+In this repository, we have provided a number of example projects to get you started with your Cthulhu, but we encourage you to experiment and build your own senses!
+
+For more information on sensory substitution or augmentation, take a look at the links below. 
+* [Brainport](https://www.youtube.com/watch?v=OKd56D2mvN0)
+* [wikipedia](https://en.wikipedia.org/wiki/Sensory_substitution)
+* [hear with your tongue](https://source.colostate.edu/words-mouth-csu-device-lets-hear-tongue/)
+* [TedTalk](https://www.ted.com/talks/david_eagleman_can_we_create_new_senses_for_humans?language=en)
+
 
 # Repository Contents:
 
@@ -26,13 +37,21 @@ The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sen
 # How to Use the Cthulhu Shield:
 
 **Power:**
-The Cthulhu Shield is made to be powered by either by plugging it directly into an Arduino Uno or Mega, or by connecting a battery directly to the shield via the broken out 5v and GND pins near the LEDs. 
+The Cthulhu Shield is made to be powered by by plugging it directly into an Arduino Uno or Mega, and connecting the arduino to a USB cable attached to a properly grounded computer, or a smartphone or external battery pack. Users should not power their Arduino/Cthulhu Shield system with an ac wall adaptor, as a small number of ac adaptors are not properly grounded or are otherwise unsafe and can cause injury or death if used with any electronic device.
 
 **Input:**
-When used with an Arduino Uno, the Cthulhu Shield can receive information directly via broken out Serial pins (RX, TX). With an Arduino Mega, the extra IO pins can be leveraged to send Digital or Analog signals to the Cthulhu Shield. 
+When used with an Arduino Uno, the Cthulhu Shield can receive information directly from the USB port connected to a computer or smarptphone, or via broken out Serial pins (RX, TX) which can used to communicate with other Arduinos/microcontrollers, or embedded devices such as bluetooth modules or sensors with serial outputs. With an Arduino Mega, the extra IO pins can be leveraged to recieve Digital or Analog signals that can be used to change the tactile output of the Cthulhu Shield. 
+
+**Output:**
+When used with an Arduino Uno, the Cthulhu Shield can send information directly via USB port connected to a computer or smarptphone, or via broken out Serial pins (RX, TX) which can used to communicate with other Arduinos/microcontrollers, or embedded devices such as bluetooth modules or sensors with serial outputs. With an Arduino Mega, the extra IO pins can be leveraged to send Digital or Analog signals that can be used to change the tactile output of the Cthulhu Shield. 
 
 **Electrode Control:**
-Updates coming soon...
+Different types of sensations can be created on different electrodes and tongue locations by changing the pattern of pulses generated on each electrode. This can be done with the Cthulhu.UpdateStimuli() function. A user changes values in six (6), eighteen (18) element arrays. The values in these arrays correspond to whether one of the 18 electrodes is on or off, and what type of pulse, and pattern of pulses, is created on each electrode. Changing these patterns changes the type and quality of the sensation percieved by the user. This library was adapted from [work by Kurt Kaczmarek](https://www.sciencedirect.com/science/article/pii/S1026309811001702) and altered for the needs of our early research at Sapien LLC.
+
+**Tongue Position Sensing:**
+During electrotactile stimulation with the Cthulhu Shield, the Arduino can quickly sense the potential on a given electrode, which changes if the tongue is in contact with the electrode or not. Placing your tongue on certain electrodes but not others, or swiping your tongue across different electrodes, can be detected by the arduino, which can then send serial information (or with minor hacking, keystrokes and HID signals) to a computer or smartphone via the USB port, or external Bluetooth modules. 
+
+Currently, tongue-position-sensing is supported only on ADC enabled Arduino pins (A0-A5 on the Uno and Mega). Position sensing on digital only pins should be possible and may be implemented in the near future. 
 
 # How to Use this Repository:
 
