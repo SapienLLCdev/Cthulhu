@@ -8,7 +8,7 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 On Qwicc GRID-Eye       On Cthulhu Shield/Arduino MEGA
  Infrared Array	
     GND	                            GND
-    3.3V	                         3.3V
+    3.3V	                    3.3V
     SDA	                        Pin 20 (SDA)
     SCL	                        Pin 21 (SCL)
 ```
