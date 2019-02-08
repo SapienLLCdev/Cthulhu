@@ -60,7 +60,7 @@ int array[18];
 //these are waveform parameter as described by Kurt Kaczmarek here https://www.sciencedirect.com/science/article/pii/S1026309811001702
 //than can be changed to create a large range of sensations on the tongue.
 int  PP[] = {50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50};
-int  Pp[] = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+int  Pp[] = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9};
 int  IN[] = {3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3};
 int  IP[] = {150,150,150,150,150,150,150,150,150,150,150,150,150,150,150,150,150,150};
 int  ON[] = {5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5};
