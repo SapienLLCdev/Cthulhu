@@ -20,6 +20,6 @@ SCL	            |            Pin 21 (SCL)
 # Libraries
 For this example you will need to download the [GridEYE Library](https://github.com/sparkfun/SparkFun_GridEYE_Arduino_Library).
 
-If you do not know how to install an Arduino library, refer to the "How to Use this Repository" section [here](https://github.com/SapienLLCdev/Cthulhu).
+If you do not know how to install an Arduino library, refer to the "How to Use this Repository" section [in the README](https://github.com/SapienLLCdev/Cthulhu).
 
 
