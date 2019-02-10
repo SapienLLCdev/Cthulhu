@@ -44,15 +44,43 @@ With the Arduino powered, short these two pins together to put the ATmega16U2 in
 
 Click the USB cable icon in the upper left and select the 'USB' option from the dropdown. 
 
-![USB](select_USB.jpg){:height="36px" width="36px"}
+![USB](select_USB.jpg)
 
+Previously 'greyed-out' features in the window should now be available (if you can't connect and get an error message see section below titled 'Update Driver')
 
+Select the Load HEX file button at the top of the window and navigate to and select the 'Arduino-keyboard-0.3.hex' file on your computer (located in this example folder in the Arduino library)
 
-(if you can't connect and get an error message see section below titled 'Update Driver')
+![load hex](firmwareselect.jpg)
+
+Once the firmware is selected, hit run to upload the new firmware to the ATmega16U2 chip on the Arduino.
+
+![run](uploadfirmware.jpg)
+
+**Now unplug your Arduino from your computer to remove power and plug it back in again. Your computer should now recognize the arduino as a standard keyboard.**
+
+**Note: If you want your Arduino to act like a regular Arduino again (so you can load different sketches on it) you must short the pins together and repeat this process, selecting 'Arduino-usbserial-uno.hex' or 'Arduino-subserial-mega.hex'to put the standard Arduino firmware back onto the ATmega16U2. 
 
 
 # Update Driver:
-If you get an error message when trying to connect to your device in Flip, you may need to update the driver in your device manager.
+If you get an error message when trying to connect to your device in Flip, you may need to update the driver in your device manager. 
+
+Make sure you are running java Runtime Environment 32, then go to **device manager** on your computer, find the 16U2 device, 
+
+![16U2device](driverupdate1.jpg)
+
+right click and select **properties** > **update drivers**, and navigate to and select the **Flip folder** on your computer. 
+
+![16U2device2](driverupdate2.jpg)
+
+![16U2device2](driverupdate3.jpg)
+
+![16U2device2](driverupdate4.jpg)
+
+Once the **Flip folder** has been selected, click **update drivers**.
+
+![16U2device2](driverupdate5.jpg)
+
+
 
 # Going Further:
 
