@@ -38,7 +38,7 @@ Once you have downloaded the [Flip programmer](https://www.microchip.com/develop
 
 ![flipchipselect](flipchipselect.jpg)
 
-With the Arduino powered, short these two pins together to put the ATmega16U2 into a state that allows to reprogram it.
+With the Arduino powered, momentarily short these two pins together with a screwdriver or something metallic to put the ATmega16U2 into a state that allows to reprogram it.
 
 ![Unohack](unokeyboardhack.jpg)
 
