@@ -58,7 +58,9 @@ Once the firmware is selected, hit run to upload the new firmware to the ATmega1
 
 **Now unplug your Arduino from your computer to remove power and plug it back in again. Your computer should now recognize the arduino as a standard keyboard.**
 
-**Note: If you want your Arduino to act like a regular Arduino again (so you can load different sketches on it) you must short the pins together and repeat this process, selecting 'Arduino-usbserial-uno.hex' or 'Arduino-subserial-mega.hex'to put the standard Arduino firmware back onto the ATmega16U2. 
+
+
+**Note: If you want your Arduino to act like a regular Arduino again (so you can load different sketches on it) you must short the pins together and repeat this process, selecting 'Arduino-usbserial-uno.hex' or 'Arduino-subserial-mega.hex'to put the standard Arduino firmware back onto the ATmega16U2. **
 
 
 # Update Driver:
@@ -68,7 +70,7 @@ Make sure you are running java Runtime Environment 32, then go to **device manag
 
 ![16U2device](driverupdate1.jpg)
 
-right click and select **properties** > **update drivers**, and navigate to and select the **Flip folder** on your computer. 
+right click and select **properties** > **update drivers**, **browse my computer for driver software** and navigate to and select the **Flip folder** on your computer. 
 
 ![16U2device2](driverupdate2.jpg)
 
