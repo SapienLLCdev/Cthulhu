@@ -7,12 +7,17 @@ The Cthulhu Shield and electrode array can be used to sense whether or not your 
 # Required Materials:
 
 * Cthulhu Shield
+
 ![Cthulhu Shield](cthulhusmall.jpg)
 * Arduino Uno or Mega or compatible clone with Atmega16U2 as USB to UART converter (it sounds like older boards using the Atmega8U2 may also work)
+
 ![Cthulhu Shield](unosmall.jpg)
 * USB A to B Cable
+
 ![USB A to B Cable](usbsmall.jpg)
+
 * One 18 Channel flexible electrode array from Sapien LLC
+
 ![Cthulhu Shield](ribbonsmall.jpg)
 
 # Required Software:
@@ -22,7 +27,7 @@ The Cthulhu Shield and electrode array can be used to sense whether or not your 
 
 
 # Hardware Assembly:
-
+Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable and electrode array. 
 
 # Example:
 
