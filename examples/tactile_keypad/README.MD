@@ -39,11 +39,20 @@ Once you have downloaded the [Flip programmer](https://www.microchip.com/develop
 ![flipchipselect](flipchipselect.jpg)
 
 With the Arduino powered, short these two pins together to put the ATmega16U2 into a state that allows to reprogram it.
+
 ![Unohack](unokeyboardhack.jpg)
 
 Click the USB cable icon in the upper left and select the 'USB' option from the dropdown. 
 
-![USB](select_USB.jpg)
+![USB](select_USB.jpg){:height="36px" width="36px"}
+
+
+
+(if you can't connect and get an error message see section below titled 'Update Driver')
+
+
+# Update Driver:
+If you get an error message when trying to connect to your device in Flip, you may need to update the driver in your device manager.
 
 # Going Further:
 
