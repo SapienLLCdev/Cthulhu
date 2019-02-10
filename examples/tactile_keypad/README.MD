@@ -11,11 +11,11 @@ The Cthulhu Shield and electrode array can be used to sense whether or not your 
 * USB A to B Cable
 * One 18 Channel electrode array from Sapien LLC
 
-![Cthulhu Shield](cthulhucrop.JPG)
-![USB A to B Cable](usbcrop.JPG)
-![Cthulhu Shield](unocrop.JPG)
-![Cthulhu Shield](megacrop.JPG)
-![Cthulhu Shield](ribboncrop.JPG)
+![Cthulhu Shield](cthulhucrop.jpg)
+![USB A to B Cable](usbcrop.jpg)
+![Cthulhu Shield](unocrop.jpg)
+![Cthulhu Shield](megacrop.jpg)
+![Cthulhu Shield](ribboncrop.jpg)
 
 
 # Hardware Assembly:
