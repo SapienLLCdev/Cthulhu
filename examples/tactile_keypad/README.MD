@@ -88,4 +88,4 @@ Once the **Flip folder** has been selected, click **update drivers**.
 
 
 # Acknowledgments: 
-Inspiration for this project and Firmware for Atmega16U2 come directly from coopermaa at https://github.com/coopermaa/USBKeyboard
+Inspiration for this project and Firmware for Atmega16U2 came directly from coopermaa at https://github.com/coopermaa/USBKeyboard
