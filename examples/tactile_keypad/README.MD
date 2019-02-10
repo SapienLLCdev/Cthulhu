@@ -36,6 +36,14 @@ Set your board and serial port from the **tools** dropdown menu and upload the s
 
 Once you have downloaded the [Flip programmer](https://www.microchip.com/developmenttools/ProductDetails/flip), open the progam and select the ATmega16U2 device by selecting the IC icon in the upper left of the window. 
 
+![flipchipselect](flipchipselect.jpg)
+
+With the Arduino powered, short these two pins together to put the ATmega16U2 into a state that allows to reprogram it.
+![Unohack](unokeyboardhack.jpg)
+
+Click the USB cable icon in the upper left and select the 'USB' option from the dropdown. 
+
+![USB](select USB.jpg)
 
 # Going Further:
 
