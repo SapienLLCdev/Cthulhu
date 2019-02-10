@@ -7,15 +7,18 @@ The Cthulhu Shield and electrode array can be used to sense whether or not your 
 # Required Materials:
 
 * Cthulhu Shield
-* Arduino Uno or Mega or compatible clone with Atmega16U2 as USB to UART converter (it sounds like older boards using the Atmega8U2 may also work)
-* USB A to B Cable
-* One 18 Channel electrode array from Sapien LLC
-
 ![Cthulhu Shield](cthulhusmall.jpg)
-![USB A to B Cable](usbsmall.jpg)
+* Arduino Uno or Mega or compatible clone with Atmega16U2 as USB to UART converter (it sounds like older boards using the Atmega8U2 may also work)
 ![Cthulhu Shield](unosmall.jpg)
-![Cthulhu Shield](megasmall.jpg)
+* USB A to B Cable
+![USB A to B Cable](usbsmall.jpg)
+* One 18 Channel flexible electrode array from Sapien LLC
 ![Cthulhu Shield](ribbonsmall.jpg)
+
+# Required Software:
+* This library
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+* [Flip programmer](https://www.microchip.com/developmenttools/ProductDetails/flip)
 
 
 # Hardware Assembly:
@@ -29,3 +32,4 @@ The Cthulhu Shield and electrode array can be used to sense whether or not your 
 
 
 # Acknowledgments: 
+Inspiration for this project and Firmware for Atmega16U2 come directly from coopermaa at https://github.com/coopermaa/USBKeyboard
