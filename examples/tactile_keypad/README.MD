@@ -30,7 +30,11 @@ The Cthulhu Shield and electrode array can be used to sense whether or not your 
 Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable and electrode array. 
 
 # Example:
+Once you have installed the Cthulhu Shield library go to **file**>**examples**>**Cthulhu-master** and open the **tactile_keypad** example sketch.
 
+Set your board and serial port from the **tools** dropdown menu and upload the sketch to your Arduino Uno or Mega.
+
+Once you have downloaded the [Flip programmer](https://www.microchip.com/developmenttools/ProductDetails/flip), open the progam and select the ATmega16U2 device by selecting the IC icon in the upper left of the window. 
 
 
 # Going Further:
