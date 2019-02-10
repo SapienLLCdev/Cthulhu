@@ -43,7 +43,7 @@ With the Arduino powered, short these two pins together to put the ATmega16U2 in
 
 Click the USB cable icon in the upper left and select the 'USB' option from the dropdown. 
 
-![USB](select USB.jpg)
+![USB](select_USB.jpg)
 
 # Going Further:
 
