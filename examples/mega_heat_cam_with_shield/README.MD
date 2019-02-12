@@ -6,7 +6,7 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 * Cthulhu Shield
 
 ![Cthulhu Shield](cthulhusmall.jpg)
-* Arduino Uno or Mega or compatible clone with Atmega16U2 as USB to UART converter (it sounds like older boards using the Atmega8U2 may also work)
+* Arduino Mega or compatible clone
 
 ![Cthulhu Shield](megasmall.jpg)
 
