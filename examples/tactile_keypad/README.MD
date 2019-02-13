@@ -4,7 +4,7 @@
 
 The Cthulhu Shield and electrode array can be used to sense whether or not your tongue is in contact with certain electrodes. Combined with the electrotactile ability of the Cthulhu Shield, this can be used to create 'virtual' tactile buttons that can be pressed with the tongue. With some minor software hacking of the Arduino, we can get the Arduino-Cthulhu to tell the computer that it is a keyboard and send keystrokes to your computer with your tongue.
 
-This example will show you how to upload an arduino sketch to an Arduino Uno with mounted Cthulhu Shield (and then hack the Arduino) to  use your tongue to send 'w''a''s''d' keystrokes to your computer. These keys are the standard keys used to control character movement in many PC games, thus you will be able to move your character with your tongue as shown in the gif below.
+This example will show you how to upload an arduino sketch to an Arduino Uno with mounted Cthulhu Shield (and then hack the Arduino) to  use your tongue to send 'w''a''s''d' and 'space' keystrokes to your computer. These keys are the standard keys used to control character movement in many PC games, thus you will be able to move your character with your tongue as shown in the gif below.
 
 ![Game_Control](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/GameControlGif.gif?raw=true)
 
@@ -34,9 +34,19 @@ This example will show you how to upload an arduino sketch to an Arduino Uno wit
 Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable and electrode array. 
 
 # Example:
-Once you have installed the Cthulhu Shield library go to **file**>**examples**>**Cthulhu-master** and open the **tactile_keypad** example sketch.
+Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **tactile_keypad** example sketch.
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/arduino_tactile_keypad_example.jpg?raw=true)
 
 Set your board and serial port from the **tools** dropdown menu and upload the sketch to your Arduino Uno or Mega.
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/arduino_brdselect_uno.jpg?raw=true)
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/arduino_comselect.jpg?raw=true)
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/arduino_upload.jpg?raw=true)
+
+
 
 Once you have downloaded the [Flip programmer](https://www.microchip.com/developmenttools/ProductDetails/flip), open the progam and select the ATmega16U2 device by selecting the IC icon in the upper left of the window. 
 
@@ -62,6 +72,11 @@ Once the firmware is selected, hit run to upload the new firmware to the ATmega1
 
 **Now unplug your Arduino from your computer to remove power and plug it back in again. Your computer should now recognize the arduino as a standard keyboard.**
 
+If you havent already, carefully lift the latch of the ZIF connector, insert the electrode array gold side down, and close the latch. Open a text editor and place the electrode array in your mouth to test it out. 
+
+Use the tip of your tongue to press the tactile 'buttons' on the electrodes at the front, back , and both sides of the array. The LED's on the Cthulhu Shield will change brightness when your tongue is contacting them, so look at them and move your tongue around to train up and practice. 'w', 'a', 's', and 'd' keystrokes are mapped to the front, left, back, and right electrodes respectively. A 'space' keystroke can be sent by flattening your tongue against the array and pressing all the electrodes simultaneously. 
+
+When you feel like it, fire up your favorite game with 'wasd' motion control and try controlling your character with your tongue!
 
 
 **Note: If you want your Arduino to act like a regular Arduino again (so you can load different sketches on it) you must short the pins together and repeat this process, selecting 'Arduino-usbserial-uno.hex' or 'Arduino-subserial-mega.hex'to put the standard Arduino firmware back onto the ATmega16U2. **
@@ -70,6 +85,9 @@ Once the firmware is selected, hit run to upload the new firmware to the ATmega1
 
 # Going Further:
 
+Change the keystrokes used in the example to something that you prefer! Maybe you want to hotkey certain actions to your tongue to give you an edge while gaming. If you have a disability, maybe there are other keystrokes that suit your needs better! 
+
+Have fun, and if you make something cool, share it with us!
 
 # Acknowledgments: 
 Inspiration for this project and Firmware for Atmega16U2 came directly from coopermaa at https://github.com/coopermaa/USBKeyboard
@@ -101,4 +119,9 @@ right click and select **properties** > **update drivers**, **browse my computer
 Once the **Flip folder** has been selected, click **update drivers**.
 
 ![16U2device2](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/driverupdate5.jpg?raw=true)
+
+
+# Install Library:
+
+Right now, the easiest way to install the Cthulhu library is by downloading the Zip file from github, and manually adding it from the arduino 'sketch' dropdown menu.
 
