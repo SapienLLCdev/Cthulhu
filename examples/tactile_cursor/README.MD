@@ -83,13 +83,13 @@ Select'Ease of Access', and click 'Ease of Access' again in the window that open
 
 Click **Make the mouse easier to use** and click the box to enable **Turn on mouse keys**.
 
-![mouse1](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_cursor/jpgs/access_mouse_seledt.jpg?raw=true)
+![mouse1](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_cursor/jpgs/access_mouse_select.jpg?raw=true)
 
 ![mouse2](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_cursor/jpgs/turnonmousekeys.jpg?raw=true)
 
 We recommned adjusting the speed and acceleration of the mouse to higher settings. To do this, go back to the main **Make the mouse easier to use** menu and select **Set up mouse keys** (note, the box to enable mouse keys should already be enabled).
 
-![mouse3](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_cursor/jpgs/setupmousekeys.jpg?raw=true)
+![mouse3](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_cursor/jpgs/setupmousekeysselect.jpg?raw=true)
 
 Adjust the sliders as desired. We recommend max speed and medium-high acceleration.
 
