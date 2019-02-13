@@ -1,4 +1,4 @@
-## Using the Cthulhu Shield and Arduino Uno to send Keystrokes
+## Using the Cthulhu Shield and Arduino Uno to Send Keystrokes With Your Tongue!
 
 # Introduction:
 
