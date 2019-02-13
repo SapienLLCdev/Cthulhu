@@ -34,9 +34,19 @@ This example will show you how to upload an arduino sketch to an Arduino Uno wit
 Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable and electrode array. 
 
 # Example:
-Once you have installed the Cthulhu Shield library go to **file**>**examples**>**Cthulhu-master** and open the **tactile_keypad** example sketch.
+Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **tactile_keypad** example sketch.
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/arduino_tactile_keypad_example.jpg?raw=true)
 
 Set your board and serial port from the **tools** dropdown menu and upload the sketch to your Arduino Uno or Mega.
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/arduino_brdselect_uno.jpg?raw=true)
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/arduino_comselect.jpg?raw=true)
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/arduino_upload.jpg?raw=true)
+
+
 
 Once you have downloaded the [Flip programmer](https://www.microchip.com/developmenttools/ProductDetails/flip), open the progam and select the ATmega16U2 device by selecting the IC icon in the upper left of the window. 
 
@@ -109,4 +119,9 @@ right click and select **properties** > **update drivers**, **browse my computer
 Once the **Flip folder** has been selected, click **update drivers**.
 
 ![16U2device2](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/driverupdate5.jpg?raw=true)
+
+
+# Install Library:
+
+Right now, the easiest way to install the Cthulhu library is by downloading the Zip file from github, and manually adding it from the arduino 'sketch' dropdown menu.
 
