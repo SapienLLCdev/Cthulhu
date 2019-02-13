@@ -48,7 +48,7 @@ Click the USB cable icon in the upper left and select the 'USB' option from the 
 
 Previously 'greyed-out' features in the window should now be available (if you can't connect and get an error message see section below titled 'Update Driver')
 
-Select the Load HEX file button at the top of the window and navigate to and select the 'Arduino-keyboard-0.3.hex' file on your computer (located in this example folder in the Arduino library)
+Select the Load HEX file button at the top of the window and navigate to and select the 'Arduino-keyboard-0.3.hex' file on your computer (located in the '16u2_firmware' folder of this example)
 
 ![load hex](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/firmwareselect.jpg?raw=true)
 
