@@ -76,7 +76,7 @@ Click on your windows search bar and search for and open 'control panel'.
 ![controlpanel](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_cursor/jpgs/control_panel.jpg?raw=true)
 
 Select'Ease of Access', and click 'Ease of Access' again in the window that opens.
-Click on your windows search bar and search for and open 'control panel'.
+
 ![ease1](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_cursor/jpgs/control_panel2.jpg?raw=true)
 
 ![ease2](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_cursor/jpgs/easeofaccess1.jpg?raw=true)
