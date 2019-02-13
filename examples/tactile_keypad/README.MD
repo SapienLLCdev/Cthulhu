@@ -46,7 +46,7 @@ Click the USB cable icon in the upper left and select the 'USB' option from the 
 
 ![USB](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/select_USB.jpg?raw=true)
 
-Previously 'greyed-out' features in the window should now be available (if you can't connect and get an error message see section below titled 'Update Driver')
+Previously 'greyed-out' features in the window should now be available (if you can't connect and get an error message see section below titled 'Troubleshooting-Update Driver')
 
 Select the Load HEX file button at the top of the window and navigate to and select the 'Arduino-keyboard-0.3.hex' file on your computer (located in the '16u2_firmware' folder of this example)
 
@@ -63,7 +63,23 @@ Once the firmware is selected, hit run to upload the new firmware to the ATmega1
 **Note: If you want your Arduino to act like a regular Arduino again (so you can load different sketches on it) you must short the pins together and repeat this process, selecting 'Arduino-usbserial-uno.hex' or 'Arduino-subserial-mega.hex'to put the standard Arduino firmware back onto the ATmega16U2. **
 
 
-# Update Driver:
+
+# Going Further:
+
+
+# Acknowledgments: 
+Inspiration for this project and Firmware for Atmega16U2 came directly from coopermaa at https://github.com/coopermaa/USBKeyboard
+
+
+
+
+
+
+
+
+
+
+# Troubleshooting-Update Driver:
 If you get an error message when trying to connect to your device in Flip, you may need to update the driver in your device manager. 
 
 Make sure you are running java Runtime Environment 32, then go to **device manager** on your computer, find the 16U2 device, 
@@ -82,10 +98,3 @@ Once the **Flip folder** has been selected, click **update drivers**.
 
 ![16U2device2](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/driverupdate5.jpg?raw=true)
 
-
-
-# Going Further:
-
-
-# Acknowledgments: 
-Inspiration for this project and Firmware for Atmega16U2 came directly from coopermaa at https://github.com/coopermaa/USBKeyboard
