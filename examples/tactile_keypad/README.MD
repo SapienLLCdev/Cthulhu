@@ -79,7 +79,7 @@ Use the tip of your tongue to press the tactile 'buttons' on the electrodes at t
 When you feel like it, fire up your favorite game with 'wasd' motion control and try controlling your character with your tongue!
 
 
-**Note: If you want your Arduino to act like a regular Arduino again (so you can load different sketches on it) you must short the pins together and repeat this process, selecting 'Arduino-usbserial-uno.hex' or 'Arduino-subserial-mega.hex'to put the standard Arduino firmware back onto the ATmega16U2. **
+**Note: If you want your Arduino to act like a regular Arduino again (so you can load different sketches on it) you must short the pins together and repeat this process, selecting 'Arduino-usbserial-uno.hex' or 'Arduino-subserial-mega.hex'to put the standard Arduino firmware back onto the ATmega16U2.**
 
 
 
