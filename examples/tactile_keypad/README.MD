@@ -11,14 +11,14 @@ The Cthulhu Shield and electrode array can be used to sense whether or not your 
 ![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/cthulhusmall.jpg?raw=true)
 * Arduino Uno or Mega or compatible clone with Atmega16U2 as USB to UART converter (it sounds like older boards using the Atmega8U2 may also work)
 
-![Cthulhu Shield](unosmall.jpg)
+![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/unosmall.jpg?raw=true)
 * USB A to B Cable
 
-![USB A to B Cable](usbsmall.jpg)
+![USB A to B Cable](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/usbsmall.jpg?raw=true)
 
 * One 18 Channel flexible electrode array from Sapien LLC
 
-![Cthulhu Shield](ribbonsmall.jpg)
+![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/ribbonsmall.jpg?raw=true)
 
 # Required Software:
 * This library
@@ -36,25 +36,25 @@ Set your board and serial port from the **tools** dropdown menu and upload the s
 
 Once you have downloaded the [Flip programmer](https://www.microchip.com/developmenttools/ProductDetails/flip), open the progam and select the ATmega16U2 device by selecting the IC icon in the upper left of the window. 
 
-![flipchipselect](flipchipselect.jpg)
+![flipchipselect](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/flipchipselect.jpg?raw=true)
 
 With the Arduino powered, momentarily short these two pins together with a screwdriver or something metallic to put the ATmega16U2 into a state that allows to reprogram it.
 
-![Unohack](unokeyboardhack.jpg)
+![Unohack](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/unokeyboardhack.jpg?raw=true)
 
 Click the USB cable icon in the upper left and select the 'USB' option from the dropdown. 
 
-![USB](select_USB.jpg)
+![USB](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/select_USB.jpg?raw=true)
 
 Previously 'greyed-out' features in the window should now be available (if you can't connect and get an error message see section below titled 'Update Driver')
 
 Select the Load HEX file button at the top of the window and navigate to and select the 'Arduino-keyboard-0.3.hex' file on your computer (located in this example folder in the Arduino library)
 
-![load hex](firmwareselect.jpg)
+![load hex](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/firmwareselect.jpg?raw=true)
 
 Once the firmware is selected, hit run to upload the new firmware to the ATmega16U2 chip on the Arduino.
 
-![run](uploadfirmware.jpg)
+![run](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/uploadfirmware.jpg?raw=true)
 
 **Now unplug your Arduino from your computer to remove power and plug it back in again. Your computer should now recognize the arduino as a standard keyboard.**
 
@@ -68,19 +68,19 @@ If you get an error message when trying to connect to your device in Flip, you m
 
 Make sure you are running java Runtime Environment 32, then go to **device manager** on your computer, find the 16U2 device, 
 
-![16U2device](driverupdate1.jpg)
+![16U2device](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/driverupdate1.jpg?raw=true)
 
 right click and select **properties** > **update drivers**, **browse my computer for driver software** and navigate to and select the **Flip folder** on your computer. 
 
-![16U2device2](driverupdate2.jpg)
+![16U2device2](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/driverupdate2.jpg?raw=true)
 
-![16U2device2](driverupdate3.jpg)
+![16U2device2](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/driverupdate3.jpg?raw=true)
 
-![16U2device2](driverupdate4.jpg)
+![16U2device2](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/driverupdate4.jpg?raw=true)
 
 Once the **Flip folder** has been selected, click **update drivers**.
 
-![16U2device2](driverupdate5.jpg)
+![16U2device2](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/driverupdate5.jpg?raw=true)
 
 
 
