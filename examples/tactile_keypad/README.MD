@@ -125,3 +125,14 @@ Once the **Flip folder** has been selected, click **update drivers**.
 
 Right now, the easiest way to install the Cthulhu library is by downloading the Zip file from github, and manually adding it from the arduino 'sketch' dropdown menu.
 
+Navigate to the Cthulhu repo main page and download the zip file.
+
+![zip](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/download_zip.jpg?raw=true)
+
+Open Arduino and select **Include Library** > **Add .ZIP Library** from the **Sketch** dropdown menu.
+
+![add library](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/arduino_add_zip_library.jpg?raw=true)
+
+Navigate to the zip file you downloaded and select it (probably your 'Downloads' folder). 
+
+The library should now be installed. 
