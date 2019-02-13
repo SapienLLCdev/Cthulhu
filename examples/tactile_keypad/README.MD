@@ -8,7 +8,7 @@ The Cthulhu Shield and electrode array can be used to sense whether or not your 
 
 * Cthulhu Shield
 
-![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_keypad/jpgs/cthulhusmall.jpg)
+![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/cthulhusmall.jpg?raw=true)
 * Arduino Uno or Mega or compatible clone with Atmega16U2 as USB to UART converter (it sounds like older boards using the Atmega8U2 may also work)
 
 ![Cthulhu Shield](unosmall.jpg)
