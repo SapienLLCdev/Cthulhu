@@ -6,6 +6,8 @@ The Cthulhu Shield and electrode array can be used to sense whether or not your 
 
 This example will show you how to upload an arduino sketch to an Arduino Uno with mounted Cthulhu Shield (and then hack the Arduino) to  use your tongue to send 'w''a''s''d' keystrokes to your computer. These keys are the standard keys used to control character movement in many PC games, thus you will be able to move your character with your tongue as shown in the gif below.
 
+![Game_Control](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/GameControlGif.gif?raw=true)
+
 # Required Materials:
 
 * Cthulhu Shield
