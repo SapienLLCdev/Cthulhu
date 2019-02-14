@@ -47,6 +47,22 @@ SCL	            |            Pin 21 (SCL)
 
 ![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/infrared_setup.JPG?raw=true)
 
+# Example:
+Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **mega_heat_cam_with_shield** example sketch.
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_mega_heat_cam_with_shield_example.JPG?raw=true)
+
+Set your board and serial port from the **tools** dropdown menu and upload the sketch to your Arduino Uno or Mega.
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_brdselect_mega.JPG?raw=true)
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_portselect_mega.JPG?raw=true)
+
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_heatcam_upload.jpg?raw=true)
+
+If everything has been setup correctly, when you wave a warm object (such as your hand) over the SparkFun GRID-Eye Infrared Array sensor, the LEDs on the Cthulhu Shield will respond by lighting up. If you wave a cold object over the sensor, then no LEDs will light up. If the 18 Channel flexible electrode array from Sapien LLC has been connected to the Cthulhu Shield, the electrodes on the flexible array will be stimulated in response to warm objects. 
+
+
 # Install Library:
 
 Right now, the easiest way to install the Cthulhu library is by downloading the Zip file from github, and manually adding it from the arduino 'sketch' dropdown menu.
