@@ -15,7 +15,7 @@ The example will output an analog reading for each of the six buttons to the ser
 
 ![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/cthulhusmall.jpg?raw=true)
 
-* Arduino Mega or compatible clone
+* Arduino Uno or compatible clone
 
 ![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/unosmall.jpg?raw=true)
 
