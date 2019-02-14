@@ -46,7 +46,7 @@ Set your board and serial port from the **tools** dropdown menu and upload the s
 
 ![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/tactile_button_upload.jpg?raw=true)
 
-After uploading to the arduino, when you place the 18 Channel flexible electrode array on your tongue and press with your tongue on the top, bottom, left, or right, if the LED is active, an electrode should noticiable brighten with tongue in contact with the electrode. This example will output an analog reading, so if you'd like to view this reading, press the "serial monitor" icon on the top right side of arduino screen and the serial monitor will display those readings. 
+After uploading to the arduino, when you place the 18 Channel flexible electrode array on your tongue and press with your tongue on the top, bottom, left, or right, if the LED is active, an electrode should noticiably brighten with your tongue in contact with the electrode. This example will output an analog reading, so if you'd like to view this reading, press the "serial monitor" icon on the top right side of arduino screen and the serial monitor will display those readings. 
 
 # Install Library:
 
