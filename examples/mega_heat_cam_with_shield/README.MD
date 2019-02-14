@@ -32,6 +32,9 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 
 If you do not know how to install an Arduino library, refer to the "How to Use this Repository" section [in the README](https://github.com/SapienLLCdev/Cthulhu). 
 
+# Hardware Assembly:
+Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable and electrode array. 
+
 # Quicc GRID-Eye Infrared Array setup with mega and Cthulhu Shield 
 
 On Qwicc GRID-Eye Infrared Array  |    On Cthulhu Shield/Arduino MEGA
