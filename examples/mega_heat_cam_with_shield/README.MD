@@ -1,4 +1,4 @@
-## Using the Cthulhu Shield, Arduino Mega, and the Quicc GRID-Eye Infrared Array to Sense Warm Objects With Your Tongue!
+## Using the Cthulhu Shield, Arduino Mega, and the SparkFun GRID-Eye Infrared Array (Qwicc) to Sense Warm Objects With Your Tongue!
 
 # Introduction
 
@@ -8,21 +8,23 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 
 * Cthulhu Shield
 
-![Cthulhu Shield](cthulhusmall.jpg)
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/cthulhusmall.jpg?raw=true)
+
 * Arduino Mega or compatible clone
 
-![Cthulhu Shield](megasmall.jpg)
+![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/megasmall.jpg?raw=true)
 
 * SparkFun Grid-EYE Infrared Array Breakout - AMG8833 (Qwiic)
-![Cthulhu_Shield](infraredsmall.jpg)
+
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/infraredsmall.jpg?raw=true)
 
 * USB A to B Cable
 
-![USB A to B Cable](usbsmall.jpg)
+![USB A to B Cable](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/usbsmall.jpg?raw=true)
 
 * One 18 Channel flexible electrode array from Sapien LLC
 
-![Cthulhu Shield](ribbonsmall.jpg)
+![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/ribbonsmall.jpg?raw=true)
 
 # Required Software
 * This library (Directions on how to install below)
@@ -40,7 +42,7 @@ SDA	            |            Pin 20 (SDA)
 SCL	            |            Pin 21 (SCL)
 
 
-![Cthulhu_Shield](infrared_setup.JPG)
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/infrared_setup.JPG?raw=true)
 
 # Install Library:
 
