@@ -1,7 +1,7 @@
 ## Activing Electrodes on the Cthulhu Shield Electrode Array Using Serial Input
 
 # Introduction
-This example shows how to activate electrodes on the Cthulhu Shield electrode array using serial input (from USB port, or an external device like a bluetooth module or another arduino)
+This example shows how to activate electrodes on the Cthulhu Shield electrode array using serial input (from USB port, or an external device like a bluetooth module or another arduino).
 
 Stimulation parameters are pre-set, and the serial input simply turns different electrodes on or off.
 
@@ -43,7 +43,7 @@ Set your board and serial port from the **tools** dropdown menu and upload the s
 
 ![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/SerialInput_port_select.JPG?raw=true)
 
-The Serial Input example is ready to be uploaded
+The Serial Input example is ready to be uploaded.
 
 ![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/SerialInput_upload.JPG?raw=true)
 
@@ -55,7 +55,7 @@ Open the **Send String** window by going to **connection**>**Send String**. The 
 
 ![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/coolterm_sendstring.JPG?raw=true)
 
-In the Send String window, select **Hex**
+In the Send String window, select **Hex**.
 
 ![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/coolterm_hex_select.JPG?raw=true)
 
