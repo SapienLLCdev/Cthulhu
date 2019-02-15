@@ -21,7 +21,6 @@ There are some awesome uses of sensory substitution already out there. For more 
 
 # Repository Contents:
 
-* [Cthulhu Camera Demo](https://github.com/SapienLLCdev/Cthulhu/tree/master/Android%20Examples/CthulhuCameraDemo)
 * [Bare Minimum](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/BareMinimum)
 * [Serial Input](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/SerialInput)
 * [GPS Directions](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/directions_example)
@@ -30,6 +29,7 @@ There are some awesome uses of sensory substitution already out there. For more 
 * [Tactile Button](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_button_example)
 * [Tactile Cursor](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_cursor)
 * [Tactile Keypad](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_keypad)
+* [Cthulhu Camera Demo](https://github.com/SapienLLCdev/Cthulhu/tree/master/Android%20Examples/CthulhuCameraDemo)
 
 # Cthulhu Shield Schematic:
 
