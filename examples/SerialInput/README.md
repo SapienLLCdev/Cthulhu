@@ -35,7 +35,7 @@ Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable
 # Example:
 Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **SerialInput** example sketch.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_brdselect_uno_SerialInput.JPG?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_uno_SerialInput_example.JPG?raw=true)
 
 Set your board and serial port from the **tools** dropdown menu and upload the sketch to your Arduino Uno or Mega.
 
