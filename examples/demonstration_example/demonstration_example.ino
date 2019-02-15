@@ -2,24 +2,22 @@
 
 
 /*
+  This example shows how to display tactile patterns on the tongue using Sapien LLC's Cthulhu Sheild using the UpdateStimulus, 
+  and Stimulate commands in the Cthulhu library. The program demonstrates some types of patterns 
+  that can be presented on the tongue. 
+  Every time the arduino is reset, the demonstration patterbs will execute once. 
+*/
+
+/*
   Cthulhu Tongue Stimulation Example - Example for stimulating the tongue using electrotactile stimulation.
   Created by Joel Moritz Jr Jan 2019
   Contributions by Marco Martinez
   Released into the public domain.
 */
 
-/*
-  This example shows how to display tactile patterns on the tongue using Sapien LLC's Cthulhu Sheild using the UpdateStimulus, 
-  and Stimulate commands in the Cthulhu library. The program first demonstrates some types of patterns 
-  that can be presented on the tongue, then goes into a mode where it will 
-  accept serial input to activate or deactive any electrodes and stimulate with normal stimulation waveform parameters. 
-*/
 
-//a few variables used to accept serial commands
-int discard;
-int time;
-int s;
-String data = "";
+
+
 int array[18];
 
 
@@ -180,53 +178,16 @@ void setup()
   mycthulhu.Begin();
   Serial.begin(9600); 
   Serial.println("Pattern Demonstration begin...");
-  demonstration();
+  demonstration(); //run through demonstration once
 }
 
 
 void loop() 
 {
-  if(Serial.available()) //monitor the serial line, update stimulus parameters, and continuously stimulate.
-  { // If the bluetooth sent any characters
-    readPacket();
-         for (int e = 0; e < 18; e++)
-    {
-    array[e] = 0;
-    }
-    for (int e = 0; e < data.length(); e++)
-    {
-    array[(int)data[e]-1] = 1; //This is leaving the 
-    }
-    mycthulhu.UpdateStimuli(array, PP, Pp, IN, IP, ON);
-  }
-  else 
-  {
-    mycthulhu.Stimulate();
-  }
-      
+  //do nothing
 }
 
 
-//read a packet in from the UART. Format is:
-// 01 02 03 0a 12 00 will turn on electrodes 0,1, 2, 9, and 17 in the array above
-// 00 00 will deactivate all electrodes.
-
-void readPacket() 
-{
-  data = "";
-  while(1) 
-  {
-    int current = Serial.read();
-    if(current != 0) {
-      data += (char)current;
-    }
-    else 
-    {
-      data += '\0';
-      break;
-    }
-  }
-}
 
 
 
