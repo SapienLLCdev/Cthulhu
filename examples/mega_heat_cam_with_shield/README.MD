@@ -69,11 +69,11 @@ Right now, the easiest way to install the Cthulhu library is by downloading the 
 
 Navigate to the Cthulhu repo main page and download the zip file.
 
-![zip](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/download_zip.jpg?raw=true)
+![zip](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/download_zip.jpg?raw=true)
 
 Open Arduino and select **Include Library** > **Add .ZIP Library** from the **Sketch** dropdown menu.
 
-![add library](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/tactile_keypad/jpgs/arduino_add_zip_library.jpg?raw=true)
+![add library](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_add_zip_library.jpg?raw=true)
 
 Navigate to the zip file you downloaded and select it (probably your 'Downloads' folder). 
 
