@@ -2,7 +2,7 @@
 
 # Introduction:
 
-The Cthulhu Shield and electrode array can be used to sense whether or not your tongue is in contact with certain electrodes. Combined with the electrotactile ability of the Cthulhu Shield, this can be used to create 'virtual' tactile buttons that can be pressed with the tongue. With some minor software hacking of the Arduino, and use of Microsofts accessibility tools, you can use the Cthulhu to control your computer cursor or type with your tongue!
+The Cthulhu Shield and electrode array can be used to sense whether or not your tongue is in contact with certain electrodes. Combined with the electrotactile ability of the Cthulhu Shield, this can be used to create 'virtual' tactile buttons that can be pressed with the tongue. With some minor software hacking of the Arduino, and use of Microsoft's accessibility tools, you can use the Cthulhu to control your computer cursor or type with your tongue!
 
 This example will show you how to upload the example 'tactile_cursor.ino' sketch to an Arduino Uno with mounted Cthulhu Shield (and then hack the Arduino) to use your tongue to send '8''4''2''6' and '5' keystrokes to your computer. These keys can be used to control your computer cursor if some of Microsoft's accessibility functions are enabled. You can also use the onscreen keyboard to type and send emails with your tongue!
 
