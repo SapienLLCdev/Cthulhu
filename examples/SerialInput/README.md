@@ -27,7 +27,9 @@ This eample works with the CthulhuCameraMotionDemo android app available on the 
 ![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/ribbonsmall.jpg?raw=true)
 
 # Required Software
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 * This library (Directions on how to install below)
+* [Coolterm-optional](http://freeware.the-meiers.org/)
 
 # Hardware Assembly:
 Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable and electrode array. 
