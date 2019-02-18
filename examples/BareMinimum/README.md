@@ -28,6 +28,7 @@ This loops indefinitely.
 ![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/ribbonsmall.jpg?raw=true)
 
 # Required Software
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 * This library (Directions on how to install below)
 
 # Hardware Assembly:
