@@ -1,1 +1,1 @@
-readme and instructions will be posted in the next few days
+readme and instructions will be posted in the near future.
