@@ -4,7 +4,7 @@
 
 The Cthulhu Shield and electrode array can be used to sense whether or not your tongue is in contact with certain electrodes. Combined with the electrotactile ability of the Cthulhu Shield, this can be used to create 'virtual' tactile buttons that can be pressed with the tongue. With some minor software hacking of the Arduino, and use of Microsoft's accessibility tools, you can use the Cthulhu to control your computer cursor or type with your tongue!
 
-This example will show you how to upload the example 'tactile_cursor.ino' sketch to an Arduino Uno with mounted Cthulhu Shield (and then hack the Arduino) to use your tongue to send '8''4''2''6' and '5' keystrokes to your computer. These keys can be used to control your computer cursor if some of Microsoft's accessibility functions are enabled. You can also use the onscreen keyboard to type and send emails with your tongue!
+This example will show you how to upload the example 'tactile_cursor.ino' sketch to an Arduino Uno with mounted Cthulhu Shield (and then hack the Arduino) to use your tongue to send '8''4''2''6' and '5' keystrokes to your computer. These keys can be used to control your computer cursor after enabling accessibility functions on your Mac or PC. You can also use the onscreen keyboard to type and send emails with your tongue!
 
 ![Game_Control](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/bw_tongue_mouse.gif?raw=true)
 
@@ -33,7 +33,9 @@ This example will show you how to upload the example 'tactile_cursor.ino' sketch
 # Hardware Assembly:
 Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable and electrode array. 
 
-# Example:
+# PC Setup:
+For setup on Windows, follow the instructions below. If you have a Mac, please see the section entitled [Mac Setup](#mac-setup) further down the page. 
+
 Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **tactile_cursor** example sketch.
 
 ![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_tactile_cursor_example.jpg?raw=true)
@@ -75,7 +77,7 @@ Once the firmware is selected, hit run to upload the new firmware to the ATmega1
 Click on your windows search bar and search for and open 'control panel'.
 ![controlpanel](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/control_panel.jpg?raw=true)
 
-Select'Ease of Access', and click 'Ease of Access' again in the window that opens.
+Select 'Ease of Access', and click 'Ease of Access' again in the window that opens.
 
 ![ease1](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/control_panel2.jpg?raw=true)
 
@@ -87,7 +89,7 @@ Click **Make the mouse easier to use** and click the box to enable **Turn on mou
 
 ![mouse2](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/turnonmousekeys.jpg?raw=true)
 
-We recommned adjusting the speed and acceleration of the mouse to higher settings. To do this, go back to the main **Make the mouse easier to use** menu and select **Set up mouse keys** (note, the box to enable mouse keys should already be enabled).
+We recommend adjusting the speed and acceleration of the mouse to higher settings. To do this, go back to the main **Make the mouse easier to use** menu and select **Set up mouse keys** (note, the box to enable mouse keys should already be enabled).
 
 ![mouse3](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/setupmousekeysselect.jpg?raw=true)
 
@@ -110,7 +112,7 @@ When you feel like it, enable the onscreen keyboard in the ease of access settin
 
 **Note: If you want your Arduino to act like a regular Arduino again (so you can load different sketches on it) you must short the pins together and repeat this process, selecting 'Arduino-usbserial-uno.hex' or 'Arduino-subserial-mega.hex'to put the standard Arduino firmware back onto the ATmega16U2.**
 
-
+# Mac Setup:
 
 # Going Further:
 
