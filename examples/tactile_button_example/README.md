@@ -28,7 +28,7 @@ The example will output an analog reading for each of the six buttons to the ser
 ![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/ribbonsmall.jpg?raw=true)
 
 # Required Software
-* ![Arduino IDE](https://www.arduino.cc/en/Main/Software)
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 * This library (Directions on how to install below)
 
 # Hardware Assembly:
