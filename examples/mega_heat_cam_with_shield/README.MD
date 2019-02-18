@@ -28,6 +28,7 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 
 # Required Software
 * This library (Directions on how to install below)
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 * [GridEYE Library](https://github.com/sparkfun/SparkFun_GridEYE_Arduino_Library).
 
 If you do not know how to install an Arduino library, refer to the "How to Use this Repository" section [in the README](https://github.com/SapienLLCdev/Cthulhu). 
