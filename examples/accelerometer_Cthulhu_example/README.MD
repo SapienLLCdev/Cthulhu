@@ -38,7 +38,7 @@ Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable
 
 # Triple Axis Accelerometer setup with mega and Cthulhu Shield 
 
-On Triple Axis Acceleromter  |    On Cthulhu Shield/Arduino MEGA
+On Triple Axis Accelerometer  |    On Cthulhu Shield/Arduino MEGA
 -----------------------------|----------------------------------
 GND	            			 |              GND
 V+	           				 |             3.3V
