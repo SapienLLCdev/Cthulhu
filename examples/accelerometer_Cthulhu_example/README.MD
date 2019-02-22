@@ -2,7 +2,7 @@
 
 # Introduction
 
-This example illustrates the use of the Cthulhu as a sensory substitution device paired with the SparkFun Triple Axis Accelerometer to feel movement on the positive and negative X and Y axes. When the accelerometer is moved in the positive or negative direction of the axes, the corresponding electrodes on the removable flexible array will be stimulated.
+This example illustrates the use of the Cthulhu Shield as a sensory substitution device paired with the SparkFun Triple Axis Accelerometer to feel movement on the positive and negative X and Y axes. When the accelerometer is moved in the positive or negative direction of the axes, the corresponding electrodes on the removable flexible array will be stimulated.
 
 # Required Materials:
 
@@ -47,54 +47,50 @@ MOSI	      				 |            Pin 51
 MISO						 |			Pin 50
 CS              			 |				Pin 53
 
-![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_labeled.jpg?raw=true)
 
-![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_setup.jpg?raw=true)
+* Labeled Pins on Triple Axis Accelerometer
+
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_labeled.JPG?raw=true)
+
+* Full Setup
+
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_setup.JPG?raw=true)
 
 # Example:
 Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **accelerometer_Cthulhu_example** example sketch.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_Cthulhu_example.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_Cthulhu_example.JPG?raw=true)
 
 Set your board and serial port from the **tools** dropdown menu and upload the sketch to your Arduino Uno or Mega.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_brd_select.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_brd_select.JPG?raw=true)
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_port_select.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_port_select.JPG?raw=true)
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_upload.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_upload.JPG?raw=true)
 
 If everything has been setup correctly, when the example is uploaded, if the accelerometer is tilted up towards the user (+X), down away from the user (-X), down to the right (+Y), and down toward the left (-Y), the corresponding elecrodes will be stimulated. This allows for the user to feel the movement in the different directions with their tongue. The further in the direction the accelerometer is tilted, the more intense feeling the stimulation will be. 
 
-Titled Axis  	|    Stimulated Electrodes
-----------------|---------------------------
-		+X 		|   	{   0, 1   },
-    			|		{2, **3**, **4**, 5},
-    			|		{6, 7, 8, 9},
-    			|		{10,11,12,13},
-   				|		{14,15,16,17}
-   				|
-   		-X		|		{   0, 1   },
-    			|		{2, 3, 4, 5},
-    			|		{6, 7, 8, 9},
-    			|		{10,11,12,13},
-   				|		{14,**15**,**16**,17}
-   				|
-   		+Y		|		{   0, 1   },
-    			|		{2, 3, 4, 5},
-    			|		{6, 7, 8, **9**},
-    			|		{10,11,12,**13**},
-   				|		{14,15,16,17}
-   				|
-   		-Y		|		{   0, 1   },
-    			|		{2, 3, 4, 5},
-    			|		{**6**, 7, 8, 9},
-    			|		{**10**,11,12,13},
-   				|		{14,15,16,17}
+Tilted Axis  |  Stimulated Electrodes
+-----------------------------|----------------------------------
++X	            			 |                3, 4
+-X	           				 |               15, 16
++Y	           				 |              9, 13
+-Y	      				 |              6, 10
+
+* Electrode Numbers on the Cthulhu Shield
+<pre>
+	{   0, 1   },
+	{2, 3, 4, 5},
+	{6, 7, 8, 9},
+	{10,11,12,13},
+	{14,15,16,17}
+</pre>
+			
+	
 
 
 
- 
 # Install Library:
 
 Right now, the easiest way to install the Cthulhu library is by downloading the Zip file from github, and manually adding it from the arduino 'sketch' dropdown menu.
