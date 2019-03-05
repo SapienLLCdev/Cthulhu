@@ -14,5 +14,5 @@ You can also clone this repository to a folder on your computer and build the AP
 
 Credits
 -------
-Built by Marco Martinez ([Funkatronics](https://github.com/funkatronics "Funkatronics GitHub")) with support from Spaien, LLC
+Built by Marco Martinez ([Funkatronics](https://github.com/funkatronics "Funkatronics GitHub")) with support from Sapien, LLC
 
