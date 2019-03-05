@@ -23,6 +23,7 @@ There are some awesome uses of sensory substitution already out there. For more 
 
 * [Bare Minimum](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/BareMinimum)
 * [Serial Input](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/SerialInput)
+* [Accelerometer Example](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/accelerometer_Cthulhu_example)
 * [GPS Directions](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/directions_example)
 * [Make Patterns](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/make_patterns)
 * [Thermal Camera](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/mega_heat_cam_with_shield)
