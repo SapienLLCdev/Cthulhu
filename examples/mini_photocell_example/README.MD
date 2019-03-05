@@ -1,8 +1,8 @@
-## Using the Cthulhu Shield, Arduino Mega, and the SparkFun Triple Axis Accelerometer to Feel Movement With Your Tongue!
+## Using the Cthulhu Shield, Arduino Mega, and the SparkFun Mini Photocell to Feel Light with your Tongue!
 
 # Introduction
 
-This example illustrates the use of the Cthulhu as a sensory substitution device paired with the SparkFun Triple Axis Accelerometer to feel movement on the positive and negative X and Y axes. When the accelerometer is moved in the positive or negative direction of the axes, the corresponding electrodes on the removable flexible array will be stimulated.
+This example illustrates the use of the Cthulhu as a sensory substitution device paired with the SparkFun Mini Photocell to feel changes in light intesnsity. The more intense the light on the Mini Photocell, the more intense the stimulation experience will be.
 
 # Required Materials:
 
@@ -14,9 +14,12 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 
 ![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/megasmall.jpg?raw=true)
 
-* SparkFun Triple Axis Accelerometer Breakout - ADXL362
+* SparkFun Mini Photocell
 
-![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer.jpg?raw=true)
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell.jpg?raw=true)
+
+* 1kΩ Resistor
+![Cthulhu_Shield]{https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/1KOhm.jpg?raw=true}
 
 * USB A to B Cable
 
@@ -29,71 +32,34 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 # Required Software
 * This library (Directions on how to install below)
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-* [ADXL362](https://github.com/annem/ADXL362)
 
 If you do not know how to install an Arduino library, refer to the "How to Use this Repository" section [in the README](https://github.com/SapienLLCdev/Cthulhu). 
 
 # Hardware Assembly:
 Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable and electrode array. 
 
-# Triple Axis Accelerometer setup with mega and Cthulhu Shield 
+# Mini Photocell setup with Mega and Cthulhu Shield 
 
-On Triple Axis Acceleromter  |    On Cthulhu Shield/Arduino MEGA
------------------------------|----------------------------------
-GND	            			 |              GND
-V+	           				 |             3.3V
-SCK	           				 |            Pin 52
-MOSI	      				 |            Pin 51
-MISO						 |			Pin 50
-CS              			 |				Pin 53
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_setup.jpg?raw=true)
 
-![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_labeled.jpg?raw=true)
-
-![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_setup.jpg?raw=true)
+For this example, a 1kΩ resistor was used. Refer to the SparkFun Mini Photocell setup guide [here](https://learn.sparkfun.com/tutorials/photocell-hookup-guide/all) if more reference is needed.
 
 # Example:
-Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **accelerometer_Cthulhu_example** example sketch.
+Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **mini_photocell_example** example sketch.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_Cthulhu_example.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_example.jpg?raw=true)
 
 Set your board and serial port from the **tools** dropdown menu and upload the sketch to your Arduino Uno or Mega.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_brd_select.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_brd_select.jpg?raw=true)
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_port_select.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_port.jpg?raw=true)
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/accelerometer_upload.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_upload.jpg?raw=true)
 
-If everything has been setup correctly, when the example is uploaded, if the accelerometer is tilted up towards the user (+X), down away from the user (-X), down to the right (+Y), and down toward the left (-Y), the corresponding elecrodes will be stimulated. This allows for the user to feel the movement in the different directions with their tongue. The further in the direction the accelerometer is tilted, the more intense feeling the stimulation will be. 
+If everything has been setup correctly, when the example is uploaded, the electrodes should be stimulated in an "x" pattern. If the light intensity is increased on the photocell by shining a flashlight on it, for example, the intensity of the stimulus will increase. If the light intesnity is decreased by turning off the lights or putting a solid object over the photocell, for example, the intensity of the stimulus will decrease.
 
-Titled Axis  	|    Stimulated Electrodes
-----------------|---------------------------
-		+X 		|   	{   0, 1   },
-    			|		{2, **3**, **4**, 5},
-    			|		{6, 7, 8, 9},
-    			|		{10,11,12,13},
-   				|		{14,15,16,17}
-   				|
-   		-X		|		{   0, 1   },
-    			|		{2, 3, 4, 5},
-    			|		{6, 7, 8, 9},
-    			|		{10,11,12,13},
-   				|		{14,**15**,**16**,17}
-   				|
-   		+Y		|		{   0, 1   },
-    			|		{2, 3, 4, 5},
-    			|		{6, 7, 8, **9**},
-    			|		{10,11,12,**13**},
-   				|		{14,15,16,17}
-   				|
-   		-Y		|		{   0, 1   },
-    			|		{2, 3, 4, 5},
-    			|		{**6**, 7, 8, 9},
-    			|		{**10**,11,12,13},
-   				|		{14,15,16,17}
-
-
-
+For this example a 1kΩ resistor was used, but a 1kΩ up to a 10kΩ resistor can be used with the photocell. Just know that changing the resistance will change the amount of voltage experienced by the photocell.
  
 # Install Library:
 
