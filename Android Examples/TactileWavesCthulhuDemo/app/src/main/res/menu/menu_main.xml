@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="funkatronics.code.tactilewavescthulhudemo.MainActivity">
+	<item
+		android:id="@+id/action_screen_on"
+		android:orderInCategory="100"
+		android:title="@string/keep_screen_on"
+		app:showAsAction="never"
+		android:checkable="true"
+		android:checked="false"/>
+
+	<item
+		android:id="@+id/action_connect"
+		android:orderInCategory="100"
+		android:title="@string/connect_bt"
+		app:showAsAction="never"/>
+
+	<item
+		android:id="@+id/action_connect_usb"
+		android:orderInCategory="100"
+		android:title="@string/connect_usb"
+		app:showAsAction="never"/>
+</menu>
