@@ -23,6 +23,7 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 ![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/breadboard.jpg?raw=true)
 
 * 1kΩ Resistor
+
 ![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/1KOhm.jpg?raw=true)
 
 * USB A to B Cable
