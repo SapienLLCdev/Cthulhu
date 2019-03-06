@@ -37,7 +37,6 @@ int  IP[] = {150,150,150,150,150,150,150,150,150,150,150,150,150,150,150,150,150
 int  ON[] = {5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5};
 
 const int LIGHT_PIN = A7; // Pin connected to voltage divider output
-//const int LED_PIN = 13; // Use built-in LED as dark indicator
 
 // Measure the voltage at 5V and the actual resistance of your
 // 47k resistor, and enter them below:
@@ -52,7 +51,6 @@ void setup()
 {
   Serial.begin(9600);
   pinMode(LIGHT_PIN, INPUT);
-//  pinMode(LED_PIN, OUTPUT);
   mycthulhu.Begin();
 }
 
@@ -71,13 +69,6 @@ void loop()
     float lightR = R_DIV * (VCC / lightV - 1.0);
     Serial.println("Voltage: " + String(lightV) + " V");
     Serial.println("Resistance: " + String(lightR) + " ohms");
-
-    // If resistance of photocell is greater than the dark
-    // threshold setting, turn the LED on.
-//    if (lightR >= DARK_THRESHOLD)
-//      digitalWrite(LED_PIN, HIGH);
-//    else
-//      digitalWrite(LED_PIN, LOW);
  
  int intlight = int(lightV);               
                       
