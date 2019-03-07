@@ -2,7 +2,7 @@
 
 # Introduction
 
-This example illustrates the use of the Cthulhu as a sensory substitution device paired with the SparkFun Mini Photocell to feel changes in light intesnsity. The more intense the light on the Mini Photocell, the more intense the stimulation experience will be.
+This example illustrates the use of the Cthulhu as a sensory substitution device paired with the SparkFun Mini Photocell to feel changes in light intensity. The more intense the light on the Mini Photocell, the more intense the stimulation experience will be.
 
 # Required Materials:
 
