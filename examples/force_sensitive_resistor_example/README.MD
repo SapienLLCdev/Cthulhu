@@ -62,7 +62,7 @@ Set your board and serial port from the **tools** dropdown menu and upload the s
 
 ![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/force_sensitive_resistor_upload.jpg?raw=true)
 
-If everything has been setup correctly, when the example is uploaded, no electrodes should be stimuluated initially. Once a force is applied to the Force Sensitive Resistor, by squeezing it with your fingers for example, the electrodes will be stimulated. The greater amount of force applied (the harder you squeeze) the greater intensity of the stimulus. Once the force applied is reduced, the intensity of the stimuluation will decrease. 
+If everything has been setup correctly, when the example is uploaded, no electrodes should be stimuluated initially. Once a force is applied to the Force Sensitive Resistor, by squeezing it with your fingers for example, the electrodes will be stimulated in an "X" pattern. The greater amount of force applied (the harder you squeeze) the greater intensity of the stimulus. Once the force applied is reduced, the intensity of the stimuluation will decrease. 
  
 # Install Library:
 
