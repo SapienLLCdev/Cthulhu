@@ -18,8 +18,13 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 
 ![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell.jpg?raw=true)
 
+* Breadboard
+
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/breadboard.jpg?raw=true)
+
 * 1kΩ Resistor
-![Cthulhu_Shield]{https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/1KOhm.jpg?raw=true}
+
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/1KOhm.jpg?raw=true)
 
 * USB A to B Cable
 
@@ -40,22 +45,22 @@ Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable
 
 # Mini Photocell setup with Mega and Cthulhu Shield 
 
-![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_setup.jpg?raw=true)
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_setup.JPG?raw=true)
 
 For this example, a 1kΩ resistor was used. Refer to the SparkFun Mini Photocell setup guide [here](https://learn.sparkfun.com/tutorials/photocell-hookup-guide/all) if more reference is needed.
 
 # Example:
 Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **mini_photocell_example** example sketch.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_example.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_example.JPG?raw=true)
 
 Set your board and serial port from the **tools** dropdown menu and upload the sketch to your Arduino Uno or Mega.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_brd_select.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_brd_select.JPG?raw=true)
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_port.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_port.JPG?raw=true)
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_upload.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/mini_photocell_upload.JPG?raw=true)
 
 If everything has been setup correctly, when the example is uploaded, the electrodes should be stimulated in an "x" pattern. If the light intensity is increased on the photocell by shining a flashlight on it, for example, the intensity of the stimulus will increase. If the light intesnity is decreased by turning off the lights or putting a solid object over the photocell, for example, the intensity of the stimulus will decrease.
 
