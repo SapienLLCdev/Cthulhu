@@ -2,7 +2,7 @@
 
 # Introduction
 
-This example illustrates the use of the Cthulhu as a sensory substitution device paired with the SparkFun Force Sensitive Resistor to feel changes in force intensity. The greater about of force placed in the Force Sensitive Resistor, the more intense the stimulation experience will be.
+This example illustrates the use of the Cthulhu as a sensory substitution device paired with the SparkFun Force Sensitive Resistor to feel changes in force intensity. The greater amount of force placed on the Force Sensitive Resistor, the more intense the stimulation experience will be.
 
 # Required Materials:
 
