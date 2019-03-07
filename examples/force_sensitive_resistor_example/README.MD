@@ -20,11 +20,11 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 
 * 3.3kΩ Resistor
 
-![Cthulhu_Shield]{https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/3_3kOhm.jpg?raw=true}
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/3_3kOhm.jpg?raw=true)
 
 * Breadboard
 
-![Cthulhu_Shield]{https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/breadboard.jpg?raw=true}
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/breadboard.jpg?raw=true)
 
 * USB A to B Cable
 
@@ -45,18 +45,18 @@ Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable
 
 # Force Sensitive Resistor Setup with Mega and Cthulhu Shield 
 
-![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/force_sensitive_resistor_setup.jpg?raw=true)
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/force_sensitive_resistor_setup.JPG?raw=true)
 
 For this example, a 3.3kΩ resistor was used. Refer to the SparkFun Force Sensitive Resistor hookup guide [here](https://learn.sparkfun.com/tutorials/force-sensitive-resistor-hookup-guide?_ga=2.62589669.834921711.1551994825-586526424.1528213955) if more reference is needed.
 
 # Example:
 Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **force_sensitive_resistor_example** example sketch.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/force_sensitive_resistor_example.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/force_sensitive_resistor_example.JPG?raw=true)
 
 Set your board and serial port from the **tools** dropdown menu and upload the sketch to your Arduino Uno or Mega.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/force_sensitive_resistor_brd_select.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/force_sensitive_resistor_brd_select.JPG?raw=true)
 
 ![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/force_sensitive_resistor_port.jpg?raw=true)
 
