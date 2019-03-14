@@ -132,7 +132,7 @@ void loop()
     Serial.println();
    mycthulhu.UpdateStimuli(trodes, PP, Pp, IN, IP, ON); //update waveform parameters
    mycthulhu.Stimulate(); //create the stimulation pulsetrain on the electrodes
-    int delay_force = map(lightV, 0, 5000, 500, 50);
-    delay(delay_force);
+    int delay_light = map(lightV, 0, 5000, 500, 50);
+    delay(delay_light);
 }
 }
