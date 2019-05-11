@@ -8,7 +8,7 @@ An Arduino equipped with a Cthulhu Shield can be connected to the app via USB or
 
 Installation
 ------------
-~~The easiest way to install this app is via the Google Play Store here.~~ Coming Soon!
+The easiest way to install this app is via the Google Play Store here.~~ https://play.google.com/store/apps/developer?id=SapienLLC&hl=en_US
 
 Alternatively, the APK provided in this folder can be installed by enabling "Unknown Sources" in your devices security settings. With this setting enabled, you will be able to open the APK file on your device and Android will begin the installation automatically. 
 
