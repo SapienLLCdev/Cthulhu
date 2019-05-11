@@ -71,8 +71,6 @@ You can enable the oncsreen keyboard in the windows control panel if you want to
 
 
 # Acknowledgments: 
-Inspiration for this project and Firmware for Atmega16U2 came directly from coopermaa at https://github.com/coopermaa/USBKeyboard
-
 
 
 
