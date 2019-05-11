@@ -29,6 +29,7 @@ There are some awesome uses of sensory substitution already out there. For more 
 * [Thermal Camera](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/mega_heat_cam_with_shield)
 * [Tactile Button](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_button_example)
 * [Tactile Cursor](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_cursor)
+* [Leonardo Tactile Cursor](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/Leonardo_tactile_cursor)
 * [Tactile Keypad](https://github.com/SapienLLCdev/Cthulhu/tree/master/examples/tactile_keypad)
 * [Cthulhu Camera Demo](https://github.com/SapienLLCdev/Cthulhu/tree/master/Android%20Examples/CthulhuCameraDemo)
 
