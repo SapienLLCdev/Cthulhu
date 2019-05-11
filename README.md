@@ -4,7 +4,7 @@
 
 This is a library for using the Cthulhu Shield sensory substitution/augmentation development kit created by [Sapien LLC](http://sapienllc.com/). 
 
-If you like what you see here, please consider backing us or donating on [Kickstarter!](https://www.kickstarter.com/projects/2007440405/cthulhu-shield?ref=user_menu)
+If you like what you see here, you can purchase a Cthulhu Shield on [our store!](https://sapienllc.com/shop/)
 
 The Cthulhu Shield is an open-source Arduino Uno and Arduino Mega compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactiley display signals on the tongue. The electrodes on the array can be activated with patterns of electrical pulses to depolarize nerve membranes in the tongue to create different types of touch sensations. You can use these touch sensations to draw shapes or simple images on the tongue, feel different sound frequencies, or receive turn by turn directions with your tongue.
 
