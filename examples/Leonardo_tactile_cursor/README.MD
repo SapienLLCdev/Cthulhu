@@ -50,7 +50,6 @@ Set your board and serial port from the **tools** dropdown menu and upload the s
 ![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_upload.jpg?raw=true)
 
 
-![mouse4](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/speedcontrol.jpg?raw=true)
 
 If you havent already, carefully lift the latch of the ZIF connector, insert the electrode array gold side down, and close the latch. 
 
@@ -59,6 +58,7 @@ If you havent already, carefully lift the latch of the ZIF connector, insert the
 * To right-click, flatten your tongue against all electrodes as described above, and hold your tongue against all electrodes for about 2 seconds, then release. The appropriate right-click menu should pop up when released. 
 * To click-drag/click-and-hold (moving a window, or using a scrollbar, etc), Flatten your tongue against all electrodes to click, and hold your tongue against the array while sliding your tongue to the desired directional button.
 
+You can enable the oncsreen keyboard in the windows control panel if you want to try typing with your tongue! 
 
 ![key1](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/without_mouse_keyboard_select.jpg?raw=true)
 
@@ -71,8 +71,6 @@ If you havent already, carefully lift the latch of the ZIF connector, insert the
 
 
 # Acknowledgments: 
-Inspiration for this project and Firmware for Atmega16U2 came directly from coopermaa at https://github.com/coopermaa/USBKeyboard
-
 
 
 
