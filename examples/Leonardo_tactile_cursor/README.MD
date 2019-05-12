@@ -20,7 +20,7 @@ This example is considerably easier to use than the 'tactile_cursor' example. Bu
 ![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/Leonardo.jpg?raw=true)
 * USB A to B Cable
 
-![USB A to micro B cable](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/microusbcable.jpg?raw=true)
+![USB A to micro B cable](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/microusbcablesmall.jpg?raw=true)
 
 * One 18 Channel flexible electrode array from Sapien LLC
 
