@@ -138,6 +138,11 @@ void loop()
   }
    
  Serial.println();
+  //check our waveform parameters and verify that they meet requirements
+  int myerror = mycthulhu.CheckWaveform(trodes, PP, Pp, IN, IP, ON);
+
+  if(myerror == 0) //if our waveform parameters are ok, update the stimulation parameters and perform one 36ms stimulation cycle.
+  {
    mycthulhu.UpdateStimuli(trodes, PP, Pp, IN, IP, ON); //update waveform parameters
    mycthulhu.Stimulate(); //create the stimulation pulsetrain on the electrodes
     int delay_force = map(intforce, 0, 5000, 500, 100);
@@ -146,5 +151,6 @@ void loop()
   else
   {
     // No pressure detected
+  }
   }
 }

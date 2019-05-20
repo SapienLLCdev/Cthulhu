@@ -18,6 +18,10 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 
 ![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/infraredsmall.jpg?raw=true)
 
+* SparkFun Logic Level Converter - Bi-Directional
+
+![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/converter.jpg?raw=true)
+
 * USB A to B Cable
 
 ![USB A to B Cable](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/usbsmall.jpg?raw=true)
@@ -36,17 +40,11 @@ If you do not know how to install an Arduino library, refer to the "How to Use t
 # Hardware Assembly:
 Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable and electrode array. 
 
-# Quicc GRID-Eye Infrared Array setup with mega and Cthulhu Shield 
+# Quicc GRID-Eye Infrared Array setup with Arduino Mega, Cthulhu Shield, and Logic Level Converter
 
-On Qwicc GRID-Eye Infrared Array  |    On Cthulhu Shield/Arduino MEGA
-----------------------------------|----------------------------------
-GND	            |                GND
-3.3V	           |                3.3V
-SDA	            |            Pin 20 (SDA)
-SCL	            |            Pin 21 (SCL)
+![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/infrared_setup_2.JPG?raw=true)
 
-
-![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/infrared_setup.JPG?raw=true)
+The logic level converter is used in this example because the infrared camera uses 3.3V and the Arduino mega uses 5V. The 5V goes into the HIGH (HV) side of the converter and the 3.3V goes into the LOW (LV) side, as pictured above.
 
 # Example:
 Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **mega_heat_cam_with_shield** example sketch.
