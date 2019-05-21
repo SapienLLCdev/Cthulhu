@@ -42,6 +42,14 @@ Install Cthulhu Shield onto Arduino Uno or Arduino Mega and attach the USB cable
 
 # Quicc GRID-Eye Infrared Array setup with Arduino Mega, Cthulhu Shield, and Logic Level Converter
 
+| Cthulhu Shield/Mega | High Side of Converter | Low side of converter | Infrared Camera |
+| ------------------- | ---------------------- | --------------------- | --------------- |
+| 3.3V  | N/A  | LV  | 3.3V  |
+| 5V  | HV  | N/A  | N/A  |
+| GND  | GND  | GND  | GND  |
+| Pin 20 (SDA)  | HV1  | LV1  | SDA  |
+| Pin 21 (SCL)  | HV2  | LV2  | SCL  |
+
 ![Cthulhu_Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/infrared_setup_2.JPG?raw=true)
 
 The logic level converter is used in this example because the infrared camera uses 3.3V and the Arduino mega uses 5V. The 5V goes into the HIGH (HV) side of the converter and the 3.3V goes into the LOW (LV) side, as pictured above.
