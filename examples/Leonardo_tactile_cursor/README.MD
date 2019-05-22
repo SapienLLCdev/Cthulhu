@@ -39,15 +39,15 @@ For setup on Windows, follow the instructions below. If you have a Mac, please s
 
 Open Arduino IDE. Once you have installed the Cthulhu Shield library (see 'Install Library' at end) go to **file**>**examples**>**Cthulhu-master** and open the **Leonardo_tactile_cursor** example sketch.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_tactile_cursor_example.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_leonardo_tactile_cursor%20_example.JPG?raw=true)
 
 Set your board and serial port from the **tools** dropdown menu and upload the sketch to your Arduino Leonardo.
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_brdselect_uno.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_brdselect_leonardo.JPG?raw=true)
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_comselect.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_leonardo_comselect.JPG?raw=true)
 
-![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_upload.jpg?raw=true)
+![example](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/arduino_leonardo_upload.JPG?raw=true)
 
 
 
