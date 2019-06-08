@@ -213,7 +213,7 @@ void loop() {
     }
         if (last_touched == 1)
       {
-        scroll_state = -5;
+        scroll_state = -3;
       }
       
       timemicros = micros();
@@ -226,7 +226,7 @@ void loop() {
     }
    if (last_touched == 3)
       {
-        scroll_state = 5;
+        scroll_state = 3;
       }
 
       timemicros = micros();
