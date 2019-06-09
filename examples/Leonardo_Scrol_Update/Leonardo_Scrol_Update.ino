@@ -200,8 +200,8 @@ void loop() {
   int yDistance = (upState - downState) * range;
   if (slow == 1)
   {
-    xDistance = xDistance / 2;
-    yDistance = yDistance / 2;
+    xDistance = xDistance / 3;
+    yDistance = yDistance / 3;
   }
 
   if( rightclickState == 0 && leftclickState ==0){
