@@ -8,6 +8,11 @@ This example will show you how to upload the example 'Leonardo_tactile_cursor.in
 
 This example is considerably easier to use than the 'tactile_cursor' example. But requires an Arduino Leonardo.
 
+[An video of the device being used can be found here](https://youtu.be/Bt2chGSGTl8)
+
+
+[Instructions on how to control the cursor can be found here](https://github.com/SapienLLCdev/Cthulhu/blob/master/examples/Leonardo_tactile_cursor/Tongue%20mouse%20instructions.pdf)
+
 ![Game_Control](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/bw_tongue_mouse.gif?raw=true)
 
 # Required Materials:
