@@ -20,7 +20,7 @@ This example illustrates the use of the Cthulhu as a sensory substitution device
 
 * SparkFun Logic Level Converter - Bi-Directional
 
-![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/converter.jpg?raw=true)
+![Cthulhu Shield](https://github.com/SapienLLCdev/Cthulhu/blob/master/jpgs/Logic_Level_Converter.jpg?raw=true)
 
 * USB A to B Cable
 
