@@ -20,7 +20,9 @@ class Cthulhu
 {
 public:
   int Begin();
+  int Begin_2uniformdelay();
   int Stimulate();
+  int stimulate_2uniformdelay();
 
   int UpdateStimuli(int electrode[], int PP[], int Pplus[], int IBN[], int IBP[], int OBN[]);
   int StopStimulus();
