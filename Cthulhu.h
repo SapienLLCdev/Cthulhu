@@ -64,7 +64,8 @@ private:
     {14,15,16,17}
   };
   
-  int _pins[UNOSHIELD_CHANNELS] = {A1,A2,11,8,7,4,A4,9,6,A5,12,10,5,3,13,A0,A3,2};
+  //horzarray left to right of users tongue, this is special arrangement for BMS 401 class
+  int _pins[UNOSHIELD_CHANNELS] = {13,12,A4,11,A0,10,9,8,A1,A2,7,6,5,A3,4,A5,3,2};
 
 
 };
