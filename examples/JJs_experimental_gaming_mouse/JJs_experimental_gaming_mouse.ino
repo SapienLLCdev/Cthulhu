@@ -204,6 +204,22 @@ on[2][1] = 1;on[2][2] = 1;on[2][3] = 1;
 on[3][3] = 1;
 on[4][0] = 1;on[4][1] = 1;on[4][2] = 1;
   }
+      if(mode ==4)
+  {
+//    on[5][4] = 
+//  {
+//    {1,0,0,1},
+//    {1,0,0,1},
+//    {1,1,1,1},
+//    {0,0,0,1},
+//    {0,0,0,1}
+//  };
+on[0][0] = 1;on[0][3] = 1;
+on[1][0] = 1;on[1][3] = 1;
+on[2][0] = 1;on[2][1] = 1;on[2][2] = 1;on[2][3] = 1;
+on[3][3] = 1;
+on[4][3] = 1;
+  }
     updatepattern();
 for (int m = 0; m<2 ; m++)
 {Serial.println("Pulsing 'X' with varying intensity.");
@@ -297,16 +313,20 @@ delay(100);
   delay(1000);
     Serial.print("mode is ");
   Serial.println(mode);
-  if (mode != 1 && mode != 2&& mode != 3)
+  if (mode != 1 && mode != 2 && mode != 3 && mode != 4)
   {
     mode = 1;
     
   }
   mycthulhu.Begin();
   demonstration();
-  if(mode ==3)
+  if(mode == 3)
   {
     Keyboard.begin();
+  }
+  if(mode == 4)
+  {
+    //do not start mouse or keyboard
   }
   else{
   Mouse.begin();
@@ -330,6 +350,10 @@ void loop() {
   {
   sample();
   }
+      if(mode == 4)
+  {
+  sample();
+  }
 
   delayMicroseconds(InnerBurstPeriodDelay);
 
@@ -343,7 +367,7 @@ void loop() {
     while (tip > TipThresh && back > BackThresh && left > LeftThresh && right > RightThresh)
     {
       count = count + 1;
-        if(mode == 1 || mode == 3)
+        if(mode == 1 || mode == 3 || mode == 4)
   {
       sample(); //made a function
   }
@@ -374,8 +398,14 @@ void loop() {
     else{
       if(mode ==3)
       {
+        mode =4;
+      }
+          else{
+      if(mode ==4)
+      {
         mode =1;
       }
+    }
     }
     }
   EEPROM.write(0,mode);
@@ -527,7 +557,7 @@ void loop() {
       timemicros = micros();
   }
   }
-      if(mode != 3)
+      if(mode != 3 && mode !=4)
       {
   // if X or Y is non-zero, move:
   if ((xDistance != 0) || (yDistance != 0)) {
@@ -583,6 +613,30 @@ void loop() {
     Keyboard.press('s');
   }
   else(Keyboard.release('s'));
+
+  // a delay so the mouse doesn't move too fast:
+  delay(responseDelay);
+}
+      if(mode == 4)
+      {
+  // if X or Y is non-zero, move:
+  if ((xDistance > 0) ) {
+    Serial.print('d');
+  }
+
+    if ((xDistance < 0) ) {
+    Serial.print('a');
+  }
+
+    if ((yDistance > 0) ) {
+    Serial.print('w');
+  }
+
+    if ((yDistance < 0) ) {
+    Serial.print('s');
+  }
+
+
 
   // a delay so the mouse doesn't move too fast:
   delay(responseDelay);
