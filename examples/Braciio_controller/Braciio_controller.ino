@@ -719,9 +719,9 @@ else
 //  Serial1.print('0');Serial1.print(',');Serial1.print('0');Serial1.print(',');Serial1.print('0');Serial1.print(',');Serial1.print('0');Serial1.print(',');Serial1.print('0');Serial1.print(',');Serial1.println('0');
 //}
 //else{
-  Serial1.print(grip);Serial1.print(',');Serial1.print('0');Serial1.print(',');Serial1.print('0');Serial1.print(',');Serial1.print(yDistance);Serial1.print(',');Serial1.print(xDistance);Serial1.print(',');Serial1.println(scroll_state);
+  Serial1.print(grip);Serial1.print(',');Serial1.print('0');Serial1.print(',');Serial1.print('0');Serial1.print(',');Serial1.print(yDistance);Serial1.print(',');Serial1.println(scroll_state);Serial1.print(',');Serial1.println(xDistance);
 //}
-
+Serial.print(grip);Serial.print(',');Serial.print('0');Serial.print(',');Serial.print('0');Serial.print(',');Serial.print(yDistance);Serial.print(',');Serial.println(scroll_state);Serial.print(',');Serial.println(xDistance);
 
   // a delay so the mouse doesn't move too fast:
   delay(100);

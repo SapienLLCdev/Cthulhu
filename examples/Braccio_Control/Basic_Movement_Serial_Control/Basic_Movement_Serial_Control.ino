@@ -122,11 +122,32 @@ void closeGripper(){
 
 void readSerial()
 {
-   while (Serial.available() > 0) {
+   while(1) {// wait until all bytes are recieved
 
+    int bytesAvail = Serial.available();
+    delay(5);
+    if (Serial.available() == bytesAvail)
+    {
+      break;
+    }
+   }
+//   char terminator = '\n';
+//char myData[15];
+//  char shorterData[15];
+//  myData = Serial.readStringUntil(terminator);
+// 
     // look for the next valid integer in the incoming serial stream:
+
+
+
+
+    
    gripperAngle = Serial.parseInt();
-   
+ 
+//   shorterData = myData.substring(myData.indexOf(','))
+//   Serial.println(myData);
+//   Serial.println(shorterData);
+//   
     wristRotAngle = Serial.parseInt();
     // do it again:
     wristAngle = Serial.parseInt();
@@ -139,10 +160,13 @@ void readSerial()
     
     baseRotAngle = Serial.parseInt();
     // do it again:
-    
+    while(Serial.available())
+    {
+      Serial.read();
+    }
 
     // look for the newline. That's the end of your sentence:
-    if (Serial.read() == '\n') {
+   // if (Serial.read() == '\n') {
       // constrain the values to 0 - 255 and invert
       // if you're using a common-cathode LED, just use "constrain(color, 0, 255);"
       wristRotAngle = constrain(wristRotAngle, -255, 255);
@@ -153,9 +177,9 @@ void readSerial()
       baseRotAngle = constrain(baseRotAngle, -255, 255);
       gripperAngle = constrain(gripperAngle, 20, 85);
 
-//Serial.print(baseRotAngle);//Serial.print(shoulderAngle);Serial.print(elbowAngle);Serial.print( wristAngle);Serial.print(wristRotAngle);Serial.println( gripperAngle);
-    }
-  }
+Serial.print(baseRotAngle);Serial.print(shoulderAngle);Serial.print(elbowAngle);Serial.print( wristAngle);Serial.print(wristRotAngle);Serial.println( gripperAngle);
+  //  }
+  
 }
  
 
