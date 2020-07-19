@@ -58,6 +58,7 @@ int Cthulhu::Stimulate()
       delay(_ICP);//else make that pin[3-12] low
     }      
   }
+  return 0;
 }
 
 
